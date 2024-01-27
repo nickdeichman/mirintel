@@ -6,9 +6,9 @@ import ImgListItem from './ImgListItem/ImgListItem';
 const ImgList = ({width,photos, itemClassName, rowHeight}) => {
   return (
     <Box sx={{ width: width ? width : 600, height: '100%' }}>
-      <ImageList variant='masonry' cols={3} gap={8} rowHeight={rowHeight}>
-        {photos.map((item) => (
-          <ImgListItem itemClassName={itemClassName} key={item} item={item} />
+      <ImageList className='gallery-images' variant='masonry' cols={3} gap={8} rowHeight={rowHeight}>
+        {photos.map((item,index ) => (
+          <ImgListItem itemClassName={itemClassName} key={index} item={item} />
         ))}
       </ImageList>
     </Box>

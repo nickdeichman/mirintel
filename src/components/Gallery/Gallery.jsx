@@ -14,6 +14,7 @@ const Gallery = () => {
     <section id='gallery' className='block'>
       <AnimationOnScroll animateIn='animate__fadeIn'>
         <ImgList
+        
           width={'100%'}
           itemClassName={'animate__fadeIn'}
           photos={SMALL_GALLERY_PHOTOS}
