@@ -36,7 +36,7 @@ const MoreCourses = () => {
       fullScreen
       open={open}
       onClose={() => {
-        navigate('/');
+        navigate('/mirintel/');
         dispatch(onClose());
       }}
       TransitionComponent={Transition}

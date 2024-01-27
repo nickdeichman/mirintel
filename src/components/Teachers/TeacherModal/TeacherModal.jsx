@@ -31,7 +31,7 @@ const TeacherModal = () => {
     <Modal
       open={open}
       onClose={() => {
-        navigate('/');
+        navigate('/mirintel/');
         dispatch(onClose());
       }}
     >
