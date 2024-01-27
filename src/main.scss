@@ -92,10 +92,7 @@ body {
 }
 
 @media screen and (max-width: 510px) {
-    .slick-prev {
-    left: -40px !important;
-  }
-  .slick-next {
-    right: -30px !important;
+    .slick-prev, .slick-next {
+      display: none !important;
   }
 }

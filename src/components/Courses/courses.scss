@@ -13,6 +13,9 @@ $height: 30rem;
     width: $left-width;
     font-size: 2rem;
     padding: 6rem;
+    .courses-left__header {
+      margin: 0;
+    }
   }
   .courses-right {
     width: calc(100% - $left-width - 5%);
@@ -88,7 +91,7 @@ $height: 30rem;
     gap: 1rem;
     .courses-left {
       padding: 0;
-      height: 10rem;
+      height: 4rem;
       font-size: 1.5rem;
       width: $left-width;
     }
@@ -119,6 +122,9 @@ $height: 30rem;
 @media screen and (max-width: 460px) {
   .course-dialog__name {
     font-size: .8rem;
+  }
+  .courses-left__header {
+    font-size: 1.7rem;
   }
   .more-courses__data {
     .course-card {

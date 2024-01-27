@@ -5,7 +5,7 @@
     display: flex;
   }
   .woman-hero {
-    width: 90%;
+    width: 100%;
     align-self: end;
   }
 
@@ -25,13 +25,10 @@
 
 @media screen and (max-width: 560px) {
   #main {
-    margin: 0;
+    margin: 1.5rem 0;
     justify-content: space-around;
     .main-left {
-      width: 70%;
-      .woman-hero {
-        width: 100%;
-      }
+      width: 90%;
     }
     .right-hero {
       padding: 0.3rem;
@@ -47,9 +44,9 @@
 
 @media screen and (max-width: 410px) {
   #main {
-    padding: 0 1rem;
+    flex-direction: row;
       .right-hero {
-      padding: 0.3rem;
+      padding: 0.5rem;
       .hero-name {
         font-size: 0.6rem;
       }
