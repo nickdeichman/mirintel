@@ -7,8 +7,8 @@ const Contacts = () => {
   return (
     <>
       <Paper elevation={3} id='footer-contacts'>
-        <h2 className='contacts-header'>Контакти</h2>
-        <p>Навчальні курси індустрії краси "МірІнтелл"</p>
+        <h2 className='footer-contacts__heading'>Контакти</h2>
+        <p className='footer-contacts__text'>Навчальні курси індустрії краси "МірІнтелл"</p>
         <div className='footer-contacts__bottom'>
           <ContactsLeft />
           <ContactsRight />
