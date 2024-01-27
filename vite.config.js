@@ -6,6 +6,6 @@ export default defineConfig({
   plugins: [react()],
   build: {
     outDir: './build'
-  }
+  },
   base: process.env.NODE_ENV === 'production' ? '/mirintel/' : '/',
 })
