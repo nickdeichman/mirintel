@@ -1,0 +1,115 @@
+$footer-bg-color: #ffcf99;
+$footer-text-color: #585755;
+$secondary-color: #f1c797;
+
+#footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  padding: 1rem;
+  position: relative;
+  width: 100%;
+  background-color: $footer-bg-color;
+  border-radius: 1rem;
+  margin-top: 2rem;
+  color: $footer-text-color;
+  span {
+    font-weight: 700;
+  }
+
+  #footer-contacts {
+    border-radius: 1rem;
+    background-color: $secondary-color;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    .contacts-header {
+      font-size: 2rem;
+      margin: 0.6rem;
+      position: relative;
+      &::after {
+        content: '';
+        position: absolute;
+        bottom: -7px;
+        left: 50%;
+        right: 0;
+        width: 50%;
+        height: 2px;
+        background: #000;
+        transform: translateX(-50%);
+      }
+    }
+    .footer-contacts__bottom {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1rem;
+
+      .footer-contacts__bottom-left {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        .button {
+          font-size: 0.6rem !important;
+        }
+
+        .phone-link {
+          text-decoration: none;
+          color: inherit;
+          position: relative;
+          margin-top: 0.2rem;
+          &::after {
+            content: '';
+            position: absolute;
+            bottom: -3px;
+            left: 0;
+            right: 0;
+            width: 50%;
+            transform: translateX(50%);
+            height: 0px;
+            background-color: black;
+            transition: height 100ms ease;
+          }
+          &:hover::after {
+            height: 2px;
+          }
+        }
+
+        .footer-icons {
+          display: flex;
+          align-items: center;
+          gap: 7px;
+        }
+        .contact-social {
+          color: #585755;
+          text-decoration: none;
+          padding: 0.3rem;
+          border-radius: 1rem;
+          transition: all 0.3s ease;
+          &:hover,
+          &:focus {
+            outline: none;
+            background-color: #e48326;
+            color: #fff;
+            svg path {
+              fill: #fff !important;
+            }
+          }
+        }
+      }
+      .footer-contacts__bottom-right {
+        align-self: center;
+      }
+    }
+  }
+
+  & .nav-list {
+    .nav-item {
+      font-size: 1.7rem;
+    }
+  }
+}

@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "name": "Вікторія",
+    "yearsOfWork": "14 років",
+    "yearsOfTeaching": "7 років",
+    "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed orci nisi, commodo a metus a, faucibus cursus nunc. Aliquam at nisl lectus. Praesent ipsum tortor, tincidunt sed enim at, vestibulum cursus felis. Aenean hendrerit in metus id sodales. Proin sit amet sagittis ante. Praesent pharetra commodo nisl ut faucibus. Nam auctor justo sit amet nunc vulputate bibendum. Maecenas tincidunt elit ac elit lobortis egestas. Ut sit amet lacinia sapien. Curabitur at mi mollis, egestas risus vel, interdum tellus. Morbi placerat nec ligula nec scelerisque.",
+    "courses": [
+      {"Чоловічі стрижки": "https://abiturients.info/uk/course/42571/50267"},
+      {"Домашній перукар": "https://abiturients.info/uk/course/42571/83670"},
+      {"Перукар-універсал": "https://abiturients.info/uk/course/42571/80382"},
+      {"Жіночі стрижки": "https://abiturients.info/uk/course/42571/77204"},
+      {"Стажування перукарів": "https://abiturients.info/uk/course/42571/83130"}
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Оксана",
+    "yearsOfWork": "10 років",
+    "yearsOfTeaching": "6 років",
+    "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed orci nisi, commodo a metus a, faucibus cursus nunc. Aliquam at nisl lectus. Praesent ipsum tortor, tincidunt sed enim at, vestibulum cursus felis. Aenean hendrerit in metus id sodales. Proin sit amet sagittis ante. Praesent pharetra commodo nisl ut faucibus. Nam auctor justo sit amet nunc vulputate bibendum. Maecenas tincidunt elit ac elit lobortis egestas. Ut sit amet lacinia sapien. Curabitur at mi mollis, egestas risus vel, interdum tellus. Morbi placerat nec ligula nec scelerisque.",
+    "courses": [
+      {"Чоловічі стрижки": "https://abiturients.info/uk/course/42571/50267"},
+      {"Домашній перукар": "https://abiturients.info/uk/course/42571/83670"},
+      {"Перукар-універсал": "https://abiturients.info/uk/course/42571/80382"},
+      {"Жіночі стрижки": "https://abiturients.info/uk/course/42571/77204"},
+      {"Стажування перукарів": "https://abiturients.info/uk/course/42571/83130"}
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Жанна",
+    "yearsOfWork": "17 років",
+    "yearsOfTeaching": "9 років",
+    "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed orci nisi, commodo a metus a, faucibus cursus nunc. Aliquam at nisl lectus. Praesent ipsum tortor, tincidunt sed enim at, vestibulum cursus felis. Aenean hendrerit in metus id sodales. Proin sit amet sagittis ante. Praesent pharetra commodo nisl ut faucibus. Nam auctor justo sit amet nunc vulputate bibendum. Maecenas tincidunt elit ac elit lobortis egestas. Ut sit amet lacinia sapien. Curabitur at mi mollis, egestas risus vel, interdum tellus. Morbi placerat nec ligula nec scelerisque.",
+    "courses": [
+      {"Чоловічі стрижки": "https://abiturients.info/uk/course/42571/50267"},
+      {"Домашній перукар": "https://abiturients.info/uk/course/42571/83670"},
+      {"Перукар-універсал": "https://abiturients.info/uk/course/42571/80382"},
+      {"Жіночі стрижки": "https://abiturients.info/uk/course/42571/77204"},
+      {"Стажування перукарів": "https://abiturients.info/uk/course/42571/83130"}
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Тетяна",
+    "yearsOfWork": "6 років",
+    "yearsOfTeaching": "2 роки",
+    "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed orci nisi, commodo a metus a, faucibus cursus nunc. Aliquam at nisl lectus. Praesent ipsum tortor, tincidunt sed enim at, vestibulum cursus felis. Aenean hendrerit in metus id sodales. Proin sit amet sagittis ante. Praesent pharetra commodo nisl ut faucibus. Nam auctor justo sit amet nunc vulputate bibendum. Maecenas tincidunt elit ac elit lobortis egestas. Ut sit amet lacinia sapien. Curabitur at mi mollis, egestas risus vel, interdum tellus. Morbi placerat nec ligula nec scelerisque.",
+    "courses": [
+      {"Чоловічі стрижки": "https://abiturients.info/uk/course/42571/50267"},
+      {"Домашній перукар": "https://abiturients.info/uk/course/42571/83670"},
+      {"Перукар-універсал": "https://abiturients.info/uk/course/42571/80382"},
+      {"Жіночі стрижки": "https://abiturients.info/uk/course/42571/77204"},
+      {"Стажування перукарів": "https://abiturients.info/uk/course/42571/83130"}
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Анастасія",
+    "yearsOfWork": "13 років",
+    "yearsOfTeaching": "4 рока",
+    "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed orci nisi, commodo a metus a, faucibus cursus nunc. Aliquam at nisl lectus. Praesent ipsum tortor, tincidunt sed enim at, vestibulum cursus felis. Aenean hendrerit in metus id sodales. Proin sit amet sagittis ante. Praesent pharetra commodo nisl ut faucibus. Nam auctor justo sit amet nunc vulputate bibendum. Maecenas tincidunt elit ac elit lobortis egestas. Ut sit amet lacinia sapien. Curabitur at mi mollis, egestas risus vel, interdum tellus. Morbi placerat nec ligula nec scelerisque.",
+    "courses": [
+      {"Чоловічі стрижки": "https://abiturients.info/uk/course/42571/50267"},
+      {"Домашній перукар": "https://abiturients.info/uk/course/42571/83670"},
+      {"Перукар-універсал": "https://abiturients.info/uk/course/42571/80382"},
+      {"Жіночі стрижки": "https://abiturients.info/uk/course/42571/77204"},
+      {"Стажування перукарів": "https://abiturients.info/uk/course/42571/83130"}
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Дар'я",
+    "yearsOfWork": "9 років",
+    "yearsOfTeaching": "1 рік",
+    "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed orci nisi, commodo a metus a, faucibus cursus nunc. Aliquam at nisl lectus. Praesent ipsum tortor, tincidunt sed enim at, vestibulum cursus felis. Aenean hendrerit in metus id sodales. Proin sit amet sagittis ante. Praesent pharetra commodo nisl ut faucibus. Nam auctor justo sit amet nunc vulputate bibendum. Maecenas tincidunt elit ac elit lobortis egestas. Ut sit amet lacinia sapien. Curabitur at mi mollis, egestas risus vel, interdum tellus. Morbi placerat nec ligula nec scelerisque.",
+    "courses": [
+      {"Чоловічі стрижки": "https://abiturients.info/uk/course/42571/50267"},
+      {"Домашній перукар": "https://abiturients.info/uk/course/42571/83670"},
+      {"Перукар-універсал": "https://abiturients.info/uk/course/42571/80382"},
+      {"Жіночі стрижки": "https://abiturients.info/uk/course/42571/77204"},
+      {"Стажування перукарів": "https://abiturients.info/uk/course/42571/83130"}
+    ]
+  }
+]

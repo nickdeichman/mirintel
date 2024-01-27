@@ -1,0 +1,24 @@
+#gallery {
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: transparent !important;
+  height: auto;
+  .animate__animated {
+    text-align: center !important;
+  }
+  .button {
+    margin: 1rem 0;
+  }
+}
+
+.big-gallery {
+  header {
+    background-color: #ffcf99 !important;
+    .MuiToolbar-regular {
+      align-self: start;
+    }
+  }
+  .MuiPaper-root {
+    align-items: center !important;
+  }
+}
