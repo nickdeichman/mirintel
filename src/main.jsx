@@ -16,7 +16,7 @@ import { COURSES_PATH, TEACHERS_PATH } from './constants/paths';
 
 const router = createBrowserRouter([
   {
-    path: `/mirintel/`,
+    path: {process.env.NODE_ENV === 'production' ? '/mirintel' : '/'},
     element: <App />,
     errorElement: <ErrorPage />,
     children: [
