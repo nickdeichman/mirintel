@@ -4,6 +4,7 @@ import Logo from '../Logo/Logo';
 import PhoneBtn from './PhoneBtn/PhoneBtn';
 import './header.scss';
 import useHeader from '../../hooks/useHeader';
+import HeaderContext from '../../context/HeaderContext';
 
 const Header = () => {
   const { isBurgerOpen, handleBurger } = useHeader();
@@ -11,7 +12,9 @@ const Header = () => {
     <>
       <header className={isBurgerOpen ? 'header active' : 'header'}>
         <Logo></Logo>
-        <Nav onClick={handleBurger} />
+        <HeaderContext.Provider value={{isBurgerOpen, handleBurger}}>
+          <Nav />
+        </HeaderContext.Provider>
         <PhoneBtn></PhoneBtn>
       </header>
       <div className={isBurgerOpen ? 'onActiveBurger active' : 'header'}></div>

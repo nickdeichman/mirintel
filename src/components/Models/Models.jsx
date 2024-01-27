@@ -8,8 +8,8 @@ const Models = () => {
   return (
     <section id='models' className='block models'>
       <ImgList photos={MODELS_PHOTO} rowHeight={200}></ImgList>
-      <div className='model-text'>
-        <p>
+      <div className='models-bottom'>
+        <p className='models-bottom__text'>
           Шановні моделі, Ми раді запросити Вас взяти участь у нашому заході,
           присвяченому б'юті-процедурам. Це чудова можливість для Вас відкрити
           для себе нові методи догляду за шкірою, включаючи манікюр, перукарські

@@ -29,7 +29,7 @@ $bg-color-opacity: #ffcf99cc;
 .header-nav {
   display: flex;
   align-items: center;
-  .header-btn {
+  .phone-btn {
     display: none;
   }
   .burger {
@@ -89,7 +89,7 @@ $bg-color-opacity: #ffcf99cc;
           text-align: center;
           color: #000;
         }
-        .header-btn {
+        .phone-btn {
           display: block;
           .button {
             background-color: #fff;
@@ -100,7 +100,7 @@ $bg-color-opacity: #ffcf99cc;
         }
       }
     }
-    .header-btn {
+    .phone-btn {
       display: none;
     }
     .header-nav {
