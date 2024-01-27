@@ -47,7 +47,7 @@ body {
 }
 
 .slick-next {
-  right: -55px !important;
+  right: -45px !important;
 }
 
 
@@ -78,3 +78,24 @@ body {
   justify-content: center;
 }
 
+@media screen and (max-width: 768px) {
+  .button {
+    padding: .5rem !important; 
+    font-size: .7rem !important;
+  }
+  .slick-prev {
+    left: -40px !important;
+  }
+  .slick-next {
+    right: -40px !important;
+  }
+}
+
+@media screen and (max-width: 510px) {
+    .slick-prev {
+    left: -40px !important;
+  }
+  .slick-next {
+    right: -30px !important;
+  }
+}

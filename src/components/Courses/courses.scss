@@ -68,8 +68,28 @@ $height: 30rem;
     }
     .course-card__link {
       display: block;
-      margin: .5rem auto 0;
+      margin: 0.5rem auto 0;
       align-self: end;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  $left-width: 100%;
+
+  #courses {
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    gap: 1rem;
+    .courses-left {
+      padding: 0;
+      height: 10rem;
+      font-size: 1.5rem;
+      width: $left-width;
+    }
+    .courses-right {
+      width: $left-width - 15%;
     }
   }
 }

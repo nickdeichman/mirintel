@@ -10,7 +10,7 @@ import Courses from '../Courses/Courses';
 
 const App = () => {
   return (
-    <Container maxWidth={'xl'}>
+    <Container maxWidth={'md'}>
       <Header />
       <Main></Main>
       <Courses />

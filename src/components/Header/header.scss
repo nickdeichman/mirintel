@@ -1,7 +1,7 @@
 $secondary-color: #e48326;
 $hover-text-color: #fff;
 $bg-color: #ffcf99;
-
+$bg-color-opacity: #ffcf99cc;
 
 .nav-list {
   display: inline-flex;
@@ -55,37 +55,45 @@ $bg-color: #ffcf99;
   align-items: center;
   justify-content: space-between;
 }
+.onActiveBurger {
+  height: 99px;
+  display: none;
+}
+.onActiveBurger.active {
+  display: block;
+}
 
 @media screen and (max-width: 990px) {
   .header {
+    transition: background-color 0.5s ease;
     &.active {
+      overflow-y: hidden;
       background-color: $bg-color;
       width: 100%;
       position: fixed;
       top: 0;
       left: 0;
       z-index: 999;
+      padding: inherit;
+      box-sizing: border-box;
+
       .header-nav {
         display: flex;
         .header-nav__list {
-          width: 100%;
-          height: 100vh;
+          transition: left 0.5s ease;
           display: inline-flex;
-          flex-direction: column;
           position: fixed;
-          top: 5rem;
           left: 50%;
           transform: translateX(-50%);
           z-index: 999;
           text-align: center;
-          background: $bg-color;
           color: #000;
         }
         .header-btn {
           display: block;
-        .button {
-          background-color: #fff;
-        }
+          .button {
+            background-color: #fff;
+          }
         }
         .burger {
           color: #000;
@@ -97,9 +105,14 @@ $bg-color: #ffcf99;
     }
     .header-nav {
       .header-nav__list {
-        display: none;
-        &.active {
-        }
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        background: $bg-color;
+        position: fixed;
+        top: 5rem;
+        left: -120%;
+        transition: left 0.5s ease;
       }
       .burger {
         display: block;
@@ -112,5 +125,8 @@ $bg-color: #ffcf99;
         }
       }
     }
+  }
+  #main {
+    margin-top: 2rem;
   }
 }

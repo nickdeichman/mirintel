@@ -1,14 +1,16 @@
 #main {
-  position: relative;
-  border-bottom-left-radius: 0;
+  flex-wrap: nowrap;
+  align-items: unset;
   .main-left {
     display: flex;
   }
   .woman-hero {
-    justify-self: start;
+    width: 90%;
+    align-self: end;
   }
 
   .right-hero {
+    align-self: center;
     .hero-name {
       text-transform: uppercase;
       word-spacing: 5px;
@@ -16,7 +18,45 @@
     }
     .hero-slogan {
       font-size: 2.5rem;
-      margin: .5rem 0;
+      margin: 0.5rem 0;
     }
   }
+}
+
+@media screen and (max-width: 560px) {
+  #main {
+    margin: 0;
+    justify-content: space-around;
+    .main-left {
+      width: 70%;
+      .woman-hero {
+        width: 100%;
+      }
+    }
+    .right-hero {
+      padding: 0.3rem;
+      .hero-name {
+        font-size: 0.6rem;
+      }
+      .hero-slogan {
+        font-size: 1.4rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 410px) {
+  #main {
+    padding: 0 1rem;
+      .right-hero {
+      padding: 0.3rem;
+      .hero-name {
+        font-size: 0.6rem;
+      }
+      .hero-slogan {
+        font-size: 1.2rem;
+      }
+    }
+  }
+
 }
