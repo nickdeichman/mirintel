@@ -16,7 +16,7 @@ import { COURSES_PATH, TEACHERS_PATH } from './constants/paths';
 
 const router = createBrowserRouter([
   {
-    path: {process.env.NODE_ENV === 'production' ? '/mirintel' : '/'},
+    path: '/',
     element: <App />,
     errorElement: <ErrorPage />,
     children: [
@@ -30,6 +30,7 @@ const router = createBrowserRouter([
       },
     ],
   },
+  {basename: process.env.NODE_ENV === 'production' ? '/mirintel/' : '/'}
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
