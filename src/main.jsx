@@ -30,7 +30,7 @@ const router = createBrowserRouter([
       },
     ],
   },
-  {basename: process.env.NODE_ENV === 'production' ? '/mirintel/' : '/'}
+  {base: process.env.NODE_ENV === 'production' ? '/mirintel/' : '/'}
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
