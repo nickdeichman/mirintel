@@ -41,12 +41,12 @@ const TeacherModal = () => {
           className='teacher-modal__left'
         ></img>
         <div className='teacher-modal__right'>
-          <h2>{teacher.name}</h2>
-          <span>Досвід роботи: {teacher.yearsOfWork}</span>
-          <span>Досвід викладання: {teacher.yearsOfTeaching}</span>
-          <p>{teacher.about}</p>
+          <h2 className='teacher-modal__heading'>{teacher.name}</h2>
+          <span className='teacher-modal__experience'>Досвід роботи: {teacher.yearsOfWork}</span>
+          <span className='teacher-modal__experience'>Досвід викладання: {teacher.yearsOfTeaching}</span>
+          <p className='teacher-modal__about'>{teacher.about}</p>
+            <h3 className='teacher-modal__heading'>Веде курси: </h3>
           <List>
-            <h3>Веде курси: </h3>
             {teacher.courses
               ? teacher.courses.map((course, index) => {
                   return (
