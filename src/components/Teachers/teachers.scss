@@ -94,6 +94,12 @@
 }
 
 @media screen and (max-width: 560px) {
+  #teachers {
+    margin-top: 1rem;
+    .teachers-heading {
+      margin-top: 0;
+    }
+  }
   .teacher-modal {
     .teacher-modal__left {
       display: none;

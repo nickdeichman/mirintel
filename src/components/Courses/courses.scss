@@ -19,6 +19,10 @@ $height: 30rem;
   }
   .courses-right {
     width: calc(100% - $left-width - 5%);
+    .slick-slider {
+      height: 100%;
+      margin-bottom: 5rem;
+    }
     .slider__item {
       height: $height;
       justify-content: space-around;
@@ -120,6 +124,20 @@ $height: 30rem;
 }
 
 @media screen and (max-width: 460px) {
+  #courses {
+    .courses-right {
+      .slider__item {
+        gap: 3rem;
+        height: auto;
+        .courses-slider__item-link{
+          align-self: center;
+        }
+      }
+      .courses-slider__about {
+        display: none;
+      }
+    }
+  }
   .course-dialog__name {
     font-size: .8rem;
   }

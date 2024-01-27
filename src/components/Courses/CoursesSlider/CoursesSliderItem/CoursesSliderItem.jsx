@@ -16,9 +16,9 @@ const CoursesSliderItem = ({ item }) => {
       <img className='slider-photo' src={item[picture]} alt='' loading='lazy' />
       <h2 className='courses-slider__name'>{item[name]}</h2>
       <p className='courses-slider__about'>{item[about].length > 100 ? item[about].substring(0, 117).concat('...') : item[about]}</p>
-      <Link to={`courses/${item.id}`} state={{key: item.id}}>
+      <Link className={`courses-slider__item-link`} to={`courses/${item.id}`} state={{key: item.id}}>
 
-      <MuiButton
+      <MuiButton 
       onClick={() => dispatch(handleOpen({name: item[name], data: item.data}))}
         title={'Детальніше'}
       ></MuiButton>
